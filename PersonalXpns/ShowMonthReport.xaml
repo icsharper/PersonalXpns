@@ -1,0 +1,30 @@
+﻿<Controls:MetroWindow
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      xmlns:matrialShit="http://materialdesigninxaml.net/winfx/xaml/themes" 
+    xmlns:oldtoolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit"
+    xmlns:oldshit="clr-namespace:System.Windows.Controls.DataVisualization;assembly=System.Windows.Controls.DataVisualization.Toolkit"
+                      xmlns:Charts="clr-namespace:De.TorstenMandelkow.MetroChart;assembly=De.TorstenMandelkow.MetroChart"
+                      xmlns:cal="http://www.caliburnproject.org" x:Class="PersonalXpns.ShowMonthReport"
+                      Title="ShowMonthReport"
+                      Height="412.237"
+                      Width="398.684" Loaded="MetroWindow_Loaded">
+    <Grid cal:Bind.AtDesignTime="True">
+
+        <!--<Charts:PieChart ChartTitle="Monthly report:" ChartSubTitle="This month" />-->
+        <oldtoolkit:Chart
+               Name="monthChart" Height="310"
+               Background="#FF8FE2EA"
+               Foreground="#FF291D18"
+               Title="Area Chart"
+               LegendTitle="Month Rating" VerticalAlignment="Bottom">
+            <oldtoolkit:Chart.Series>
+                <oldtoolkit:PieSeries Title="Experience"
+                        IndependentValueBinding="{Binding Path=Key}"
+                        DependentValueBinding="{Binding Path=Value}">
+                </oldtoolkit:PieSeries>
+            </oldtoolkit:Chart.Series>
+        </oldtoolkit:Chart>
+    </Grid>
+</Controls:MetroWindow>
