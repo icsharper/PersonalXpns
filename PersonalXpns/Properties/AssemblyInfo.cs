@@ -10,9 +10,27 @@ using System.Windows;
 [assembly: AssemblyTitle("PersonalXpns")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+[assembly: AssemblyCompany("9Tech software solution")]
+[assembly: AssemblyProduct("PersonalXpns - MhdNour")]
+[assembly: AssemblyCopyright("Copyright ©  2018")]
+=======
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("PersonalXpns")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
+>>>>>>> parent of 731e844... almost done try to optmz references
+=======
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("PersonalXpns")]
+[assembly: AssemblyCopyright("Copyright ©  2014")]
+>>>>>>> parent of 731e844... almost done try to optmz references
+=======
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("PersonalXpns")]
+[assembly: AssemblyCopyright("Copyright ©  2014")]
+>>>>>>> parent of 731e844... almost done try to optmz references
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
